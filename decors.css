@@ -1,0 +1,51 @@
+@media (min-width: 1280px) {
+    :root {
+      font-size: 20px;
+    }
+}
+  
+@media (min-width: 1720px) {
+    :root {
+      font-size: 30px;
+    }
+}
+
+body {
+    margin: 0;
+    background-color: #c29bc2;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.thank-button {
+    font-family: Arial, Helvetica, sans-serif;
+
+    border-radius: 10px;
+    border: none;
+    font-size: 0.7rem;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    background: linear-gradient(to right, rgb(185, 128, 247), rgb(166, 70, 255));
+    color: white;
+
+    transition: 0.7s;
+    margin-top: 15rem;
+}
+
+.thank-button:hover {
+    border-radius: 5px;
+}
